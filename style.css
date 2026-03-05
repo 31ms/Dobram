@@ -1,0 +1,38 @@
+nav{
+    background-color: darkgreen;
+    padding: 10px;
+    color: white;
+}
+main{
+    background-color: green;
+    padding: 10px;
+}
+.addtocart{
+    background-color: #c50000;
+    border-color: darkred;
+}
+.addtocart:hover{
+    background-color: #a10000;
+    border-color: #520000;
+}
+.produkt{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border: gray solid 2px;
+    border-radius: 20px;
+}
+main .co{
+    border: gray solid 1px;
+    margin: 20px;
+}
+.bg-red{
+    background-color: #a00000;
+    min-height: 20vw;
+}
+a{
+    text-decoration: none;
+}
+.tani{
+    text-decoration: line-through red;
+}
