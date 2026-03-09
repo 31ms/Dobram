@@ -48,11 +48,8 @@ header img{
 .opis{
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+.etapy{
+    display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-}
-#row2{
-    grid-row: 1 2;
-}
-#row3{
-    grid-row: 2;
 }
