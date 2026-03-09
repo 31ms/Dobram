@@ -6,6 +6,8 @@ nav{
 main{
     background-color: green;
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 .addtocart{
     background-color: #c50000;
