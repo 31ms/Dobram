@@ -47,6 +47,6 @@ header img{
 }
 .opis{
     display: grid;
-    grid-row: 1fr 1fr;
-    grid-column: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
