@@ -3,6 +3,9 @@ nav{
     padding: 10px;
     color: white;
 }
+header h1{
+    margin-left: 80px;
+}
 main{
     background-color: green;
     padding: 10px;
