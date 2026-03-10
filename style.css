@@ -5,7 +5,7 @@ nav{
     color: white;
 }
 header h1{
-    margin-left: 80px;
+    margin-left: 40px;
 }
 main{
     background: linear-gradient(#006746,#000d0a);
@@ -48,7 +48,6 @@ html{
 }
 header img{
     width: 5%;
-    margin-left: 5%;
 }
 .opis{
     display: grid;
