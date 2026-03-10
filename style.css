@@ -66,3 +66,6 @@ header img{
     justify-content: center;
     flex-wrap: wrap;
 }
+.role1 img{
+    width: 100%;
+}
