@@ -1,6 +1,6 @@
 nav{
     background: linear-gradient(90deg,#006747,#003b29);
-    /* box-shadow: white 0 0 50px 0; */
+    box-shadow: white 0 0 50px 0;
     padding: 10px;
     color: white;
 }
