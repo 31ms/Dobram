@@ -57,3 +57,12 @@ header img{
     display: grid;
     grid-template-columns: auto auto;
 }
+.role1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.role div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
