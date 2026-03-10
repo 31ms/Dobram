@@ -57,11 +57,11 @@ header img{
     display: grid;
     grid-template-columns: auto auto;
 }
-.role1{
+.role1>div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.role div{
+.role1>div>div{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
