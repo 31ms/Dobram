@@ -47,7 +47,8 @@ header img{
 }
 .opis{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 .etapy{
     display: grid;
