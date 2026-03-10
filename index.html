@@ -89,7 +89,7 @@
                             <img class="mw-100" src="./images/${oferta.zdjecie}" alt="${oferta.zdjecie}">
                         </div>
                         <div class="col grid">
-                            <h3 class="cost fw-bold"><span class="tani"> ${oferta.cena}zł</span> ${parseInt(oferta.cena)*0.75}zł</h3>
+                            <h3 class="cost fw-bold"><span class="tani"> ${oferta.cena}</span> ${parseInt(oferta.cena)*0.75}zł</h3>
                             <ul>
                                 <li>Typ: ${oferta.typ}</li>
                                 <li>Pamięć: ${oferta.pamiec}</li>
@@ -99,33 +99,36 @@
                         </div>
                     </div>
                 </div>`)
+                var oferta1 = oferty[Math.floor(Math.random()*oferty.length)]
+                var oferta2 = oferty[Math.floor(Math.random()*oferty.length)]
+                var oferta3 = oferty[Math.floor(Math.random()*oferty.length)]
                 document.write(`
                 <h1 class="text-center text-white display-3">Najnowsze Produkty</h1>
                 <div class="d-flex justify-content-evenly">
                     <div class="produkt container">
                         <div class="row">
                             <div class="col-9">
-                                <h3 class="title">${oferta.nazwa}</h3>
-                                <img class="mw-100" src="./images/${oferta.zdjecie}" alt="${oferta.zdjecie}">
-                                <h3 class="cost fw-bold">${oferta.cena}zł</h3>
+                                <h3 class="title">${oferta1.nazwa}</h3>
+                                <img class="mw-100" src="./images/${oferta1.zdjecie}" alt="${oferta1.zdjecie}">
+                                <h3 class="cost fw-bold">${oferta1.cena}</h3>
                             </div>
                         </div>
                     </div>
                     <div class="produkt container">
                         <div class="row">
                             <div class="col-9">
-                                <h3 class="title">${oferta.nazwa}</h3>
-                                <img class="mw-100" src="./images/${oferta.zdjecie}" alt="${oferta.zdjecie}">
-                                <h3 class="cost fw-bold">${oferta.cena}zł</h3>
+                                <h3 class="title">${oferta2.nazwa}</h3>
+                                <img class="mw-100" src="./images/${oferta2.zdjecie}" alt="${oferta2.zdjecie}">
+                                <h3 class="cost fw-bold">${oferta2.cena}</h3>
                             </div>
                         </div>
                     </div>
                     <div class="produkt container">
                         <div class="row">
                             <div class="col-9">
-                                <h3 class="title">${oferta.nazwa}</h3>
-                                <img class="mw-100" src="./images/${oferta.zdjecie}" alt="${oferta.zdjecie}">
-                                <h3 class="cost fw-bold">${oferta.cena}zł</h3>
+                                <h3 class="title">${oferta3.nazwa}</h3>
+                                <img class="mw-100" src="./images/${oferta3.zdjecie}" alt="${oferta3.zdjecie}">
+                                <h3 class="cost fw-bold">${oferta3.cena}zł</h3>
                             </div>
                         </div>
                     </div>
