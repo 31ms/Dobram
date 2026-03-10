@@ -63,11 +63,11 @@ header img{
     grid-column-gap: 1%;
     grid-template-rows: auto;
 }
-.role1>div>div{
+/* .role1>div>div{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 .role1 img{
     width: 100%;
 }
