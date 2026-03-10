@@ -61,6 +61,7 @@ header img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 1%;
+    grid-template-rows: auto;
 }
 .role1>div>div{
     display: flex;
@@ -69,5 +70,4 @@ header img{
 }
 .role1 img{
     width: 100%;
-    height: auto;
 }
