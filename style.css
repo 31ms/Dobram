@@ -1,5 +1,6 @@
 nav{
-    background-color: darkgreen;
+    background: linear-gradient(90deg #006747,#003b29);
+    box-shadow: white 0 0 50px 0;
     padding: 10px;
     color: white;
 }
@@ -7,7 +8,7 @@ header h1{
     margin-left: 80px;
 }
 main{
-    background-color: green;
+    background: linear-gradient(#006746,#000f0f);
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -43,7 +44,7 @@ a{
     text-decoration: line-through red;
 }
 html{
-    background-color: green;
+    background: linear-gradient(#006746,#000f0f);
 }
 header img{
     width: 10%;
