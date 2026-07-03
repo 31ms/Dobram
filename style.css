@@ -85,3 +85,9 @@ body{
 .czemu{
     background: none;
 }
+footer{
+    width: 100%;
+    background: linear-gradient(90deg,#006747,#003b29);
+    padding: 10px;
+    color: white;
+}
